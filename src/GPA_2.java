@@ -21,6 +21,9 @@ public class GPA_2 {
 		System.out.print("What is the name of your class?: ");
 		course = in.next();
 		
+		//Since the loop needs to have some way to exit,
+		//the user must type in "Quit" to end the program.
+		
 		if (course.equalsIgnoreCase("Quit")) {
 			
 			System.out.println("Thank you, goodbye!");
@@ -34,6 +37,10 @@ public class GPA_2 {
 
 		System.out.print("What is the letter grade you got?: ");
 		grade = in.next();
+		
+		
+		//This switch statement takes the letter grade and converts 
+		//it to a number grade, based on what that letter grade is.
 		
 		switch (grade) {
 		
@@ -79,6 +86,10 @@ public class GPA_2 {
 			default: System.out.println("That isn't an acceptable answer.");
 		
 			}
+		
+		//this takes the inputs for each of the variables
+		//and implements them into the transcript, with
+		//every class receiving its own line.
 		
 		transcript = transcript + course + "\t" + credits + "\t" + grade + "\t" + numberGrade + "\n";
 		
