@@ -12,7 +12,8 @@ public class GPA {
 		
 		while (loop = true) {
 		
-		System.out.print("What grade did you get?: ");
+		System.out.println("To quit program, type \"Q\".");
+		System.out.print("What letter grade did you get?: ");
 		
 		letterGrade = in.next();
 		
