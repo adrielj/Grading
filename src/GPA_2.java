@@ -2,7 +2,6 @@ import java.util.Scanner;
 public class GPA_2 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		Scanner in = new Scanner(System.in);
 		
@@ -89,7 +88,7 @@ public class GPA_2 {
 		
 		//this takes the inputs for each of the variables
 		//and implements them into the transcript, with
-		//every class receiving its own line.
+		//every class and details receiving its own line.
 		
 		transcript = transcript + course + "\t" + credits + "\t" + grade + "\t" + numberGrade + "\n";
 		
